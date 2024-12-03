@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #17171a;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #17171a;
+}
+
+.all-msg {
+  border: 3px solid #e07b67;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  margin: 30px;
+}
+
+span {
+  color: orangered;
+}
+
+.logo {
+  color: #fff;
+}
+
+.text-one {
+  color: #fff;
+}
+
+.text-two {
+  color: #afabb6;
+}
+
+.data {
+  color: #e07b67;
+}
+
+/* Container da search box */
+.search-container {
+  text-align: center; /* Centraliza o conteúdo */
+  margin-top: 50px; /* Espaço superior */
+}
+
+/* Estilos para a search box */
+.search-box {
+  width: 800px;
+  padding: 10px;
+  background-color: #d3d3d3; /* Fundo cinza */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000; /* Cor do texto */
+}
+
+/* Placeholder com cor branca */
+.search-box::placeholder {
+  color: #fff;
+}
